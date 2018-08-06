@@ -67,6 +67,14 @@ var BlockStat = new Schema(
     "uncleCount": Number
 });
 
+var connectOptions = {
+  db: { native_parser: true },
+//  server: { poolSize: 5 },
+//  replset: { rs_name: 'myReplicaSetName' },
+  user: 'explorer',
+  pass: 'yourdbpasscode',
+  promiseLibrary: global.Promise
+}
 // create indices
 Transaction.index({timestamp:-1});
 Transaction.index({blockNumber:-1});
@@ -85,6 +93,6 @@ module.exports.Contract = mongoose.model('Contract');
 module.exports.Transaction = mongoose.model('Transaction');
 
 
-mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/blockDB');
+mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/blockDB', connectOptions);
 
 // mongoose.set('debug', true);
