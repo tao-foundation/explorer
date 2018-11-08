@@ -1,13 +1,13 @@
-# TAO Explorer1
+# TAO Explorer
 
-<b>Live Version: [explorer.tao.ac](https://explorer.tao.ac)</b>
+<b>Live Version: [explorer.tao.foundation](https://explorer.tao.foundation)</b>
 
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/tao-foundation/explorer1`
+`git clone https://github.com/tao-foundation/explorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
