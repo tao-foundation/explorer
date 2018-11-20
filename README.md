@@ -7,7 +7,7 @@
 
 Clone the repo
 
-`git clone https://github.com/tao-foundation/explorer`
+`git clone https://github.com/tao-foundation/teoexplorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -43,7 +43,7 @@ Basic settings:
     "settings": {
         "symbol": "TEO",
         "name": "TEO (TrustEthreOrigin)",
-        "title": "TEO (TestNet) Block Explorer",
+        "title": "TEO Block Explorer",
         "author": "Trustfarm, Elaine, Cody, Hackmod, Bakon",
         "contact": "mailto:admin@tao.foundation",
     }
